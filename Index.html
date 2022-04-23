@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Task Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <Link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <script>
+    function function_color(){
+var data =document.getElementById("drop").value;
+document.getElementById("idd").innerHTML="your Subject is " +data;
+
+
+    }
+  </script>
+  <ul >
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="News.html">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="About.html">About</a></li>
+    <li>
+      <select onchange="function_color()" name="color" id="drop" size="1" style="height: 30px;width: 100px;margin-top: 10px;color: rgb(250, 250, 250);background-color: #503cc4;">
+        <li> <option value="web" >web</option></li>
+       <li> <option value="mobile" >mobile</option></li>
+        <li><option value="desktop" >desktop</option></li>
+      </select>
+    </li>
+  </ul>
+  <div class="hero-image">
+    <div class="hero-text animate">
+      <h1 style="font-size:50px" id="idd"></h1>
+      <h1 style="font-size:50px"> Mohamed Saeed Hamouda</h1>
+      <h1 style="font-size:50px">Section 6</h1>
+
+      <p>And I'm a Developer</p>
+      <button class="btn btn-info" type="button" style="width: 100px;"><a href="Login.html">Login</a></button>
+      <button class="btn btn-primary" type="button" style="width: 100px;"><a href="SignUp.html">Register</a></button>
+
+    </div>
+  </div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="About.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>
+</body>
+
+</html>

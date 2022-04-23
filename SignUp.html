@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Link rel="stylesheet" href="style.css"/>
+<style>
+
+</style>
+</head>
+<body>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+  </script>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">SignUP Page</h2>
+      <div class="col">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="email" name="E-mail" placeholder="E-mail" required>
+        <input type="password" name="password" placeholder="Password" id="myInput" required>
+        <input type="password" name="Confirm password" placeholder="Confirm Password" required>
+        <input type="submit" value="Register">
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="col media">
+    <a href="#" class="fb btn">
+      <i class="fa fa-facebook fa-fw"></i> SignUP with Facebook
+     </a>
+    <a href="#" class="twitter btn">
+      <i class="fa fa-twitter fa-fw"></i> SignUP with Twitter
+    </a>
+    <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+      </i> SignUP with Google+
+    </a>
+  </div>
+  <div class="col media">
+    <a href="#" class=" btn">
+       Login
+     </a>
+    <a href="#" class=" btn">
+       Forget Password
+    </a>
+  </div>
+  
+
+</body>
+</html>

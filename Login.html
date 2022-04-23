@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Link rel="stylesheet" href="style.css"/>
+<style>
+
+</style>
+</head>
+<body>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+  </script>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login Page</h2>
+      <div class="col">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" id="myInput" placeholder="Password" required >
+       <div> Show Password <input type="checkbox" onclick="myFunction()"></div>
+        <input type="submit" value="Login">
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="col media">
+    <a href="#" class="fb btn">
+      <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+     </a>
+    <a href="#" class="twitter btn">
+      <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+    </a>
+    <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+      </i> Login with Google+
+    </a>
+  </div>
+  <div class="col media">
+    <a href="#" class=" btn">
+       SignUp
+     </a>
+    <a href="#" class=" btn">
+       Forget Password
+    </a>
+  </div>
+  
+
+</body>
+</html>
