@@ -1,34 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("h1_hero.png");
-    height: 550px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 20px;
-  }
-    </style>
-<body>
+<head>
+  <link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+<style>
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height: 300px;
+  text-align: justify;
+}
 
-<h2 style="text-align: center;background-color: rgb(48, 48, 158);padding: 10px;color: rgb(228, 222, 222);">News</h2>
-<div class="hero-image">    
-<ul type="preloader-circle" >
-  <li style="font-size:larger;"> centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;">en the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;"> centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;">en the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;"> centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;">en the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;"> centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;">en the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;"> centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;">en the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;"> centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-  <li style="font-size:larger;">en the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</li>
-</ul>  
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+.container {
+    position: relative;
+    padding: 10px 60px 20px 90px;
+  } 
+
+</style>
+</head>
+<body>
+    <div class="search-container">
+        <form >
+          <input type="text" placeholder="Search.."style="width: 500px;height: 40px;" name="search">
+          <button type="submit" class="btn btn-success" style="width: 100px;height: 45px;"><i class="fa fa-search"></i>Search</button>
+        </form>
+      </div>
+    <h1>News</h1>
+    <div class="container">
+
+<div class="gallery">
+  <a target="_blank" href="Img/mo.jpg">
+    <img src="Img/mo.jpg" alt="mo " width="600" height="400">
+  </a>
+  <div>
+      <ul>
+          <li>
+          <p style="text-align:left;">Mo salah</p>  
+          </li>
+          <li>
+            <p style="text-align:left;">Loarm loclc mcldm ldmlcs Loarm loclc mcldm ldmlcs</p>   
+        </li>
+      </ul>
+  </div>
 </div>
+
+<div class="gallery">
+  <a target="_blank" href="Img/mo1.jpg">
+    <img src="Img/mo1.jpg" alt="mo" width="600" height="400">
+  </a>
+  <div >
+    <ul>
+        <li>
+        <p style="text-align:left;">Mo salah</p>  
+        </li>
+        <li>
+          <p style="text-align:left;"> Loarm loclc mcldm ldmlcs Loarm loclc mcldm ldmlcs</p>   
+      </li>
+    </ul>
+</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Img/sport.jpg">
+    <img src="Img/sport.jpg" alt="mo" width="600" height="400">
+  </a>
+  <div >
+    <ul>
+        <li>
+        <p style="text-align:left;">Barca</p>  
+        </li>
+        <li>
+          <p style="text-align:left;">Loarm loclc mcldm ldmlcs Loarm loclc mcldm ldmlcs</p>   
+      </li>
+    </ul>
+</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Img/fan.jpg">
+    <img src="Img/fan.jpg" alt="mo" width="600" height="400">
+  </a>
+  <div >
+    <ul>
+        <li>
+        <p style="text-align:left;">Ali Rapi3</p>  
+        </li>
+        <li>
+          <p style="text-align:left;">Masrah masr</p>   
+      </li>
+    </ul>
+</div>
+</div>
+  <div class="gallery">
+    <a target="_blank" href="Img/5.jpg">
+      <img src="Img/5.jpg" alt="HACKER" width="600" height="400">
+    </a>
+    <div>
+        <ul>
+            <li>
+            <p style="text-align:left;">HACKER MASER</p>  
+            </li>
+            <li>
+              <p style="text-align:left;">HACKER MASr Loarm loclc mcldm ldmlcs</p>   
+          </li>
+        </ul>
+    </div>
+  </div>
+  
+  
+</div>
+
 </body>
 </html>
+
+

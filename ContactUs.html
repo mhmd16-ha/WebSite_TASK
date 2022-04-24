@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Link rel="stylesheet" href="style.css"/>
+<style>
+
+</style>
+</head>
+<body>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+function Color() {
+  document.getElementById("subject").style.background="yellow"; 
+}
+function Color1() {
+  document.getElementById("subject").style.background="red"; 
+}
+function Color2() {
+  document.getElementById("subject").style.background="blue"; 
+}
+  </script>
+<div class="container">
+  <form>
+    <div class="row">
+      <h2 style="text-align:center">Contact Us</h2>
+      <div class="col">
+        <input type="text" name="username" placeholder="Username" >
+        <input type="text" name="Email" placeholder="Email" >
+        <input type="text" name="Phone" placeholder="Phone" required>
+        <textarea id="subject" name="subject" placeholder="Write Comment.." style="height:250px;width: 100%;margin-top: 20px;background-color: white;"></textarea>
+        <button style="width: 100px;height: 40px;background-color: red;" onclick="Color1()">Change Style To Red</button>
+        <button style="width: 100px;height: 40px;background-color: yellow;" onclick="Color()">Change Style  To Yellow</button>
+        <button style="width: 100px;height: 40px;background-color: blue;" onclick="Color2()">Change Style To Blue</button>
+        <input type="submit" value="Send" >
+      </div>   
+    </div>
+  </form>
+</div>
+
+
+
+</body>
+</html>

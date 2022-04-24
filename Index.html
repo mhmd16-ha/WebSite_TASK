@@ -23,15 +23,22 @@ document.getElementById("idd").innerHTML="your Subject is " +data;
   <ul >
     <li><a class="active" href="#home">Home</a></li>
     <li><a href="News.html">News</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="Images.html">Image Gallary</a></li>
+    <li><a href="ContactUs.html">Contact</a></li>
     <li><a href="About.html">About</a></li>
     <li>
-      <select onchange="function_color()" name="color" id="drop" size="1" style="height: 30px;width: 100px;margin-top: 10px;color: rgb(250, 250, 250);background-color: #503cc4;">
+      <select onchange="function_color()" name="color" id="drop" size="1" style="height: 30px;width: 100px;margin: 10px;color: rgb(250, 250, 250);background-color: #503cc4;">
         <li> <option value="web" >web</option></li>
        <li> <option value="mobile" >mobile</option></li>
         <li><option value="desktop" >desktop</option></li>
       </select>
     </li>
+    <div class="search-container">
+      <form >
+        <input type="text" placeholder="Search.."style="width: 500px;height: 40px;" name="search">
+        <button type="submit" class="btn btn-success" style="width: 100px;height: 45px;"><i class="fa fa-search"></i>Search</button>
+      </form>
+    </div>
   </ul>
   <div class="hero-image">
     <div class="hero-text animate">
@@ -48,8 +55,8 @@ document.getElementById("idd").innerHTML="your Subject is " +data;
   <nav aria-label="Page navigation example">
     <ul class="pagination">
       <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="Images.html">1</a></li>
+      <li class="page-item"><a class="page-link" href="ContactUs.html">2</a></li>
       <li class="page-item"><a class="page-link" href="About.html">3</a></li>
       <li class="page-item"><a class="page-link" href="#">Next</a></li>
     </ul>
